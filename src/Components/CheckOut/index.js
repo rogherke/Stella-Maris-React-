@@ -113,7 +113,6 @@ const CheckOut = () => {
           )
         }
         </div>
-
         <div className={styles.checkOutStatus}>
           <div className={styles.checkOuTh}>配送方式：</div>
           <p>因需冷凍保存，故只提供低溫宅配到府的方式，每筆訂單運費200元整。</p>
