@@ -1,0 +1,9 @@
+export { default as Advertise } from './Advertise';
+export { default as Bulletin } from './Bulletin';
+export { default as Contact } from './Contact';
+export { default as Navbar } from './Navbar';
+export { default as Products } from './Products';
+export { default as Propagandas } from './Propagandas';
+export { default as Special } from './Special';
+export { default as ShoppingCart } from './ShoppingCart';
+export { default as CheckOut } from './CheckOut';

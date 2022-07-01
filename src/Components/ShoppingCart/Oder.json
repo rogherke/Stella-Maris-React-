@@ -1,0 +1,16 @@
+[
+  {
+    "id" : "1",
+    "img": "rarecheeseCake",
+    "name" : "覆盆子起司奶油蛋糕",
+    "price" : "999",
+    "amount" : "1"
+  },
+  {
+    "id" : "2",
+    "img" : "strawberryCake",
+    "name" : "草莓海綿蛋糕",
+    "price" : "999",
+    "amount" : "2"
+  }
+]

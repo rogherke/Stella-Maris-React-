@@ -1,0 +1,289 @@
+.productTitle {
+    width: 100%;
+    display: block;
+    margin-top: 4%;
+
+    .titleText {
+        font-size: 1.6rem;
+        font-weight: bold;
+        text-align: center;
+        line-height: 2.4rem;
+
+        &:after {
+            content: "";
+            display: block;
+            width: 90%;
+            height: 0.2vh;
+            margin: 3vh auto;
+            background: #aaa095;
+        }
+    }
+}
+
+.productList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .itemList {
+        width: 90%;
+        padding-bottom: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border-bottom: 2px #aaa095 solid;
+
+        .listInner {
+            width: 50%;
+            margin-bottom: 3%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        } 
+
+        .cake {
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .cakePic {
+                    width: 100%;
+                }
+            }
+
+            h2 {
+                margin: 2% 0;
+                font-size: 2rem;
+                font-weight: bold;
+                letter-spacing: 0.5rem;
+                text-align: center;
+                line-height: 4.5rem;
+            }
+
+            ul {
+                width: 100%;
+                padding: 0;
+                display: flex;
+                justify-content: space-around;
+                list-style-type: none;
+            }
+
+            li {
+                width: 30%;
+                font-size: 1.2rem;
+                text-align: center;
+            }
+
+            .cakeDescription {
+                width: 100%;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p {
+                    font-size: 1.2rem;
+                    line-height: 1.6rem;
+                }
+            }
+
+            .cakePrice {
+                width: 100%;
+                font-size: 1.6rem;
+                text-align: center;
+                flex-wrap: wrap;
+                line-height: 5rem;
+            }
+
+            .productBuy,  .putinCart{
+                width: 28%;
+                height: 6%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 16px;
+                border: 2px black solid;
+                border-radius: 30px;
+                cursor: pointer;
+
+                &:hover {
+                    color: red;
+                    opacity: 0.7;
+                    transform: scale(1.1);
+
+                    img {
+                        opacity: 0.7;
+                    }
+                }
+
+                img {
+                    height: 20px;
+                    margin-right: 4px;
+                }
+            }
+        }
+    }
+}
+
+/* ======================================= */
+@media screen and (max-width: 768px) {
+    .productList {
+        .itemList {
+            .listInner {
+                width: 100%;
+
+                .cake {
+                    h2 {
+                        width: 100%;
+                        justify-content: center;
+                        line-height: 3.2rem;
+                        font-size: 22px;
+                    }
+            
+                    ul {
+                        li {
+                            width: 32%;
+                            font-size: 16px;
+                        }
+                    }
+            
+                    .cakePic {
+                        height: 26vh;
+                    }
+            
+                    .cakeDescription {
+                        margin-top: 20px;
+                        p {
+                            font-size: 18px;
+                            line-height: 1.5rem;
+                        }
+                    }
+            
+                    .cakePrice {
+                        font-size: 1.2rem;
+                    }
+            
+                    .putinCart {
+                        width: 35%;
+                        font-size: 16px;
+            
+                        img {
+                            margin: 6% 1%;
+                        }
+                    }
+            
+                    .productBuy {
+                        width: 35%;
+                        font-size: 16px;
+            
+                        img {
+                            height: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// @media screen and (max-width: 480px) {
+//     .itemList {
+//         flex-direction: column;
+
+//         .listLeft,
+//         .listRight {
+//             width: 100%;
+//             justify-content: center;
+
+//             .leftInner,
+//             .rightInner {
+//                 justify-content: center;
+//             }
+//         }
+//     }
+
+//     .cake {
+//         h2 {
+//             font-size: 1.3rem;
+//         }
+
+//         li {
+//             width: 32%;
+//             font-size: 1rem;
+//         }
+
+//         .cakePic {
+//             height: 50%;
+//         }
+
+//         .cakeDescription {
+//             height: 10vh;
+
+//             p {
+//                 font-size: 1rem;
+//                 line-height: 1.3rem;
+//             }
+//         }
+
+//         .cakePrice {
+//             font-size: 1.3rem;
+//             line-height: 1.3rem;
+//         }
+
+//         .putinCart {
+//             font-size: 1rem;
+//             line-height: 2rem;
+//             height: 5vh;
+
+//             img {
+//                 margin: 4% 3%;
+//                 height: 3vh;
+//             }
+//         }
+
+//         .productBuy {
+//             margin: 12% 3%;
+//             font-size: 1rem;
+//             line-height: 2rem;
+//             height: 5vh;
+
+//             img {
+//                 height: 15px;
+//                 margin: 0 0 1% 0;
+//             }
+//         }
+//     }
+// }
+
+@media screen and (max-width: 400px) {
+    .cake {
+        li {
+            width: 41%;
+        }
+
+        .cakeDescription {
+            height: 14vh;
+        }
+
+        .productBuy {
+            font-size: 0.8rem;
+            line-height: 1.8rem;
+        }
+
+        .putinCart {
+            font-size: 0.8rem;
+            line-height: 1.8rem;
+
+            img {
+                height: 2.5vh;
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+.contactMethod {
+    width: 100%;
+    justify-content: center;
+    margin-top: 1%;
+
+    .contactImg {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 30%;
+        }
+    }
+
+    .contactPhone {
+        width: 100%;
+        justify-content: center;
+
+        p {
+            font-size: 1.1rem;
+            text-align: center;
+            line-height: 4rem;
+        }
+    }
+
+    .shareCommunity {
+        text-align: center;
+        
+        p {
+            font-size: 1.3rem;
+            text-align: center;
+            line-height: 3rem;
+        }
+
+        a {
+            width: 2%;
+            margin: 0% 0.6%;
+
+            img {
+                width: 40px;
+            }
+        }
+    }
+}
+
+/* ======================================= */
+@media screen and (max-width: 1280px) {
+    .contactImg img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contactImg img {
+        width: 50%;
+    }
+
+    .shareCommunity {
+        p {
+            line-height: 5rem;
+            font-size: 1.5rem;
+        }
+
+        a {
+            width: 3%;
+            margin: 0% 1%;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contactImg img {
+        width: 70%;
+    }
+
+    .contactPhone p {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .shareCommunity {
+        p {
+            line-height: 5rem;
+            font-size: 1.3rem;
+        }
+
+        a {
+            width: 5%;
+            margin: 0% 1%;
+        }
+    }
+}

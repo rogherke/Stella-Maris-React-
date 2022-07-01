@@ -1,0 +1,131 @@
+.essential {
+    width: 100%;
+    height: auto;
+    background:white;
+    display: flex;
+    margin: 6rem 0;
+
+    .storeBrand {
+        width: 22%;
+        background:white;
+
+        .storeLogo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100%;
+
+            img {
+                width: 180%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .showArea {
+        width: 78%;
+
+        .productShow {
+            width: 100%;
+            z-index: 1;
+            overflow: hidden;
+
+            .slideShow {
+                width:100%;
+                object-fit: cover;
+                overflow: hidden;
+            }
+
+            .pulse {
+                -webkit-animation-name: pulse;
+                animation-name: pulse;
+                -webkit-animation-duration: 7s;
+                animation-duration: 7s;
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+            }
+
+            @-webkit-keyframes pulse {
+                from {
+                    -webkit-transform: scale3d(1.45, 1.45, 1.45);
+                    transform: scale3d(1.45, 1.45, 1.45);
+                }
+                to {
+                    -webkit-transform: scale3d(1, 1, 1);
+                    transform: scale3d(1, 1, 1);
+                }
+            }
+              
+            @keyframes pulse {
+                from {
+                    -webkit-transform: scale3d(1.45, 1.45, 1.45);
+                    transform: scale3d(1.45, 1.45, 1.45);
+                }
+                to {
+                    -webkit-transform: scale3d(1, 1, 1);
+                    transform: scale3d(1, 1, 1);
+                }
+            }
+        }
+    }
+}
+
+/* ======================================= */
+@media screen and (max-width: 1280px) {
+    .storeLogo {
+        height: 100%;
+
+        img {
+            width: 170%;
+        }    
+    }
+}    
+
+@media screen and (max-width: 768px) {
+    .essential {
+        height: 40%;
+        margin: 5rem 0;
+       
+        .storeBrand {
+            .storeLogo {
+                height: 100%;
+    
+                img {
+                    width: 160%;
+                }    
+            }   
+
+            .pulse {
+                width: 100%;
+            }  
+        } 
+    }    
+}   
+
+@media screen and (max-width: 400px) {
+    .essential {
+        height: 43vh;
+        margin: 5rem 0;
+
+        .storeBrand {
+            display: none;
+
+            .storeLogo {
+                height: 20vh;
+
+                img {
+                    display: none;
+                }    
+            }   
+        }   
+
+        .showArea {
+            width: 100%;
+        }    
+        
+        .pulse {
+            width: 100%;
+            height: 50vh;
+        }    
+    } 
+}

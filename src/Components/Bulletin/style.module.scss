@@ -1,0 +1,107 @@
+.bulletin {
+    width: 100%;
+    display: block;
+    background-color:#fefbda;
+
+    .pieceCake {
+        width: 100%;
+        background: url('../../images/strawberry-cake-piece.jpg') no-repeat;
+        background-position: 55% 50%;
+        background-size: 48%;
+        display: flex;
+
+        .board {
+            width:100%; 
+            margin-top:4%;
+
+            h1 {
+                text-align: center;
+                font-size: 5.6rem;
+            }
+
+            h2 {
+                text-align: center;
+                font-size: 2.5rem;
+                font-weight: bold;
+            }
+
+            .boardText {
+                width: 100%;
+                justify-content: center;
+                text-align:center ;
+                display: flex;
+                font-size: 1.2rem;
+                line-height: 2.8rem;
+            }
+        }
+    }
+}
+
+/* ======================================= */
+
+// @media screen and (max-width: 1024px) {
+//     .pieceCake {
+//         background-size: 65%;
+//         height: 50%;
+        
+//         h1 {
+//             font-size: 3rem;
+//         } 
+
+//         h2 {
+//             font-size: 1.6rem;
+//         }
+
+//         // br {
+//         //     display: none;
+//         // }
+
+//         .boardText {
+//             font-size: 1.2rem;
+//         }   
+//     }
+// }
+
+@media screen and (max-width: 768px) {
+    .pieceCake {
+        h1 {
+            font-size: 3rem;
+        } 
+
+        h2 {
+            font-size: 1.6rem;
+        }   
+        
+        br {
+            display: none;
+        }
+
+        .boardText {
+            font-size: 1.2rem;
+        }   
+    } 
+}
+
+@media screen and (max-width: 400px) {
+    .bulletin {
+        .pieceCake {
+            height: 35%;
+            background-size: 90%;
+    
+            .board {
+                h1 {
+                    font-size: 3rem;
+                } 
+            
+                h2 {
+                    font-size: 20px;    
+                }    
+                
+                .boardText {
+                    font-size: .9rem;   
+                    line-height: 1.9rem; 
+                }
+            }
+        }  
+    }  
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id" : "1",
+    "img": "rarecheeseCake",
+    "name" : "覆盆子起司奶油蛋糕",
+    "sugar" : "糖份：4.2g",
+    "heat" : "熱量：177kcal",
+    "price" : "999",
+    "arrowDown" : "arrow-down.png",
+    "shoppingCart" : "shopping_cart.png",
+    "cakeDescription" : "採用特選大顆覆盆子與柔軟的布利起司，並只使用少許天然庶糖，製成的超人氣蛋糕。",
+    "amount" : "1"
+  },
+  {
+    "id" : "2",
+    "img" : "strawberryCake",
+    "name" : "草莓海綿蛋糕",
+    "sugar" : "糖份：4.3g",
+    "heat" : "熱量：181kcal",
+    "price" : "999",
+    "arrowDown" : "arrow-down.png",
+    "shoppingCart" : "shopping_cart.png",
+    "cakeDescription" : "採用大湖栽種的精選大顆草莓與特別製作出的鬆軟海綿蛋糕，夾層中佐以鮮奶油，其層次豐富，讓人不由得多嚐一口。",
+    "amount" : "1"
+  },
+  {
+    "id" : "3",
+    "img" : "blackForest",
+    "name" : "黑森林狂想",
+    "sugar" : "糖份：3.6g",
+    "heat" : "熱量：255kcal",
+    "price" : "999",
+    "arrowDown" : "arrow-down.png",
+    "shoppingCart" : "shopping_cart.png",
+    "cakeDescription" : "以高品質奶油與可口櫻桃製作，週邊灑上切成薄片的巧克力點綴，成為經典蛋糕款式。",
+    "amount" : "1"
+  },
+  {
+    "id" : "4",
+    "img" : "heartCake",
+    "name" : "紅心",
+    "sugar" : "糖份：3.9g",
+    "heat" : "熱量：157cal",
+    "price" : "999",
+    "arrowDown" : "arrow-down.png",
+    "shoppingCart" : "shopping_cart.png",
+    "cakeDescription" : "採用大湖栽種的精選大顆草莓，與鬆軟蛋糕為基底，抹上以鮮奶油，製作出特別愛心型狀。",
+    "amount" : "1"
+  },
+  {
+    "id" : "5",
+    "img" : "chocolateCake",
+    "name" : "黑巧克力的秘密",
+    "sugar" : "糖份：3.5g",
+    "heat" : "熱量：340kcal",
+    "price" : "999",
+    "arrowDown" : "arrow-down.png",
+    "shoppingCart" : "shopping_cart.png",
+    "cakeDescription" : "採用大湖栽種的精選大顆草莓與特別製作出的鬆軟海綿蛋糕，夾層中佐以鮮奶油，其層次豐富，讓人不由得多嚐一口。",
+    "amount" : "1"
+  },
+  {
+    "id" : "6",
+    "img" : "mousse",
+    "name" : "藍莓巧克力蛋糕",
+    "sugar" : "糖份：5.1g",
+    "heat" : "熱量：201kcal",
+    "price" : "999",
+    "arrowDown" : "arrow-down.png",
+    "shoppingCart" : "shopping_cart.png",
+    "cakeDescription" : "嚴選產自智利的大顆藍莓，搭配自家特別製作的巧克力為基底，配上低糖鮮奶油，其口感獨特。",
+    "amount" : "1"
+  },
+  {
+    "id" : "7",
+    "img" : "ganache",
+    "name" : "Stella choco",
+    "sugar" : "糖份：9.9g",
+    "heat" : "熱量：619cal",
+    "price" : "999",
+    "arrowDown" : "arrow-down.png",
+    "shoppingCart" : "shopping_cart.png",
+    "cakeDescription" : "使用含量78%的可可，與在地優質酪農所提供新鮮牛乳，製成的巧克力，苦澀中略帶甘味。 (此為每日限量商品)",
+    "amount" : "1"
+  },
+  {
+    "id" : "8",
+    "img" : "tiramisu",
+    "name" : "Stella Tiramisu",
+    "sugar" : "糖份：2.4g",
+    "heat" : "熱量：211cal",
+    "price" : "999",
+    "arrowDown" : "arrow-down.png",
+    "shoppingCart" : "shopping_cart.png",
+    "cakeDescription" : "材料採用嚴選咖啡豆，與特製低糖鮮奶油製成，層次分明細緻不膩口。",
+    "amount" : "1"
+  }
+]

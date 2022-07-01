@@ -1,0 +1,149 @@
+.serviceTitle {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2.4rem;
+  margin-top: 4%;
+  border-style: 1px;
+}
+
+.specialService {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  .serviceBoard {
+    width: 90%;
+
+    .servicePic {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 30%;
+      }
+    }
+
+    .serviceText {
+      padding-left: 2rem;
+
+      h1 {
+        font-size: 2.2rem;
+        line-height: 3rem;
+        font-weight: bold;
+      }
+      // p {
+      //   font-size: 1.4rem;
+      //   width: 80%;
+      //   text-align: center;
+      //   line-height: 3rem;
+      // }
+    }
+  }
+
+  .serviceAdditional {
+    width: 100%;
+    margin: 2% 0; 
+  
+    p {
+      font-size: 1.5rem;
+      text-align: center;
+      font-weight: bold;
+      line-height: 3rem;
+    }
+  }
+}
+
+.publicize {
+  width: 100%;
+
+  .publiBoard {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+/* ======================================= */
+@media screen and (max-width: 768px) {
+  .serviceTitle {
+    h2 {
+      margin: 0;
+    }
+  }
+
+  .specialService {
+    .serviceBoard {
+      .servicePic {
+        width: 100%;
+
+        img {
+          width: 40%;
+        }
+      } 
+    
+      .serviceText {
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 0;
+        line-height: 0;
+    
+        h1 {
+          font-size: 28px;
+          line-height: 2.5rem;
+        }
+      }
+    }
+  
+    .serviceAdditional {
+      margin-top: 5%;
+  
+      p {
+        font-size: 1.3rem;
+        line-height: 3.3rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .serviceBoard {
+    flex-wrap: wrap;
+
+    .servicePic {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      img {
+        height: 16vh;
+        width: auto;
+      }
+    }
+
+    .serviceText {
+      width: 100%;
+
+      h1 {
+        font-size: 20px;
+        line-height: 2rem;
+      }
+    }
+  }
+
+  .serviceAdditional {
+    margin-top: 5%;
+
+    p {
+      font-size: 0.9rem;
+      line-height: 2rem;
+    }
+  }
+}
+

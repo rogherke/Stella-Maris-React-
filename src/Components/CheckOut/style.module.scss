@@ -1,0 +1,278 @@
+body {
+  font-size: 16px;
+  line-height: 1.42857;
+  background-color: #FFFFFF;
+  font-family: "Helvetica", "Arial", "LiHei Pro", "Noto Sans TC", "微軟正黑體", sans-serif;
+  outline: none;
+}
+
+.main {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+
+  .checkOutGuided {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .checkOutLogo {
+      width: 20%;
+      display: flex;
+
+      img {
+        width: 60%;
+        cursor: pointer;
+      }
+
+      .logoCheckOut {
+        width: 50%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        border-left: 0.050rem solid black;
+      }
+    }
+
+    .searchBar {
+      width: 50%;
+      text-align: end;
+      display: flex;
+      justify-content: end;
+    }
+  }
+
+  .checkOutArea {
+    min-height: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  
+    .checkOutGroup {
+      width: 70%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      border: 1px solid #000000;
+      background: white;
+
+      .creditStatus {
+        width: 90%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 3%;
+        border: 1px solid rgba(0, 0, 0, .125);
+        box-shadow: 0 2px 3px 0 #00000040;
+        border-radius: .25rem;
+        background: white;
+
+        .creditTitle {
+          width: 100%;
+          display: flex;
+
+          span {
+            width: 16%;
+          }
+
+          .creditInp {
+            width: 25%;
+            height: 24px;
+            margin-top: 8px;
+            font-size: 20px;
+            font-weight: 300;
+          }
+        }
+      }
+  
+      .checkOutStatus {
+        width: 90%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 25px;
+        padding: 2%;
+        border: 1px solid rgba(0, 0, 0, .125);
+        box-shadow: 0 2px 3px 0 #00000040;
+        border-radius: .25rem;
+        background: white;
+  
+        .checkOuTh {
+          width: 100%;
+          font-size: 22px;
+        }
+  
+        .statusGroup {
+          width: 100%;
+          margin: 15px 0;
+          line-height: 3em;
+  
+          .checkOutPay {
+            width: 50%;
+            height: 30px;
+            margin-bottom: 0;
+            flex: 1;
+            line-height: 2.5rem;
+            font-size: 20px;
+            font-weight: 300;
+  
+            label {
+              margin-left: 10px;
+              font-size: 18px;
+            }
+          }
+          
+          .statusInp {
+            width: 20%;
+            height: 24px;
+            margin-left: 15px;
+            margin-bottom: 0;
+            flex: 1;
+            font-size: 20px;
+            font-weight: 300;
+          }
+
+          .caution {
+            color: #ee4d2d;
+            margin-left: 18px;
+          }
+        }
+      }
+  
+      .checkOutCalculate {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 25px;
+        padding: 2%;
+        border: 1px solid rgba(0, 0, 0, .125);
+        box-shadow: 0 2px 3px 0 #00000040;
+        border-radius: .25rem;
+        background: white;
+  
+        .checkOutTotal {
+          width: 90%;
+          font-size: 20px;
+          text-align: end;
+          line-height: 40px;
+        }
+  
+        .checkOut {
+          width: 20%;
+          height: 40px;
+          margin-left: 5%;
+          font-size: 18px;
+          text-align: center;
+          background: #ee4d2d;
+          border: 1px solid rgba(0, 0, 0, 0.125);
+          cursor: pointer;
+        }
+      }
+    }  
+  }
+
+  .formGroup {
+    position: fixed;
+    top: 0;
+
+    .formOverlay { 
+      position: absolute;
+      top: 40vh;
+      left: calc(50vw - 150px);
+      width: 300px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      z-index: 10;
+      border: 1px solid;
+      background-color: #cccc;
+    }
+
+    label {
+      font-size: 30px;
+    }
+
+    .close {
+      font-size: 20px;
+      width: 100px;
+      height: 50px;
+      margin-top: 30px;
+      border-radius: 30px;
+      cursor: pointer;
+      background: white;
+    }
+  }
+}
+
+/* ======================================= */
+@media (max-width: 1280px) {
+  .orderDetail {
+      height: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    .checkOutGuided {
+      .checkOutLogo {
+        width: 40%;
+
+        .logoCheckOut {
+          font-size: 22px;
+        }
+      }
+    }
+
+    .checkOutArea {
+      .checkOutGroup {
+        width: 90%;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .main {
+    .checkOutGuided {
+      margin: 30px 8px;
+
+      .checkOutLogo {
+        width: 100%;
+      }
+    }
+
+    .checkOutArea {
+      .checkOutGroup {
+        width: 100%;
+
+        .checkOutStatus {
+          margin: auto;
+          border:none;
+          box-shadow:none;
+
+          .statusGroup {
+            .statusInp {
+              width: 50%;
+            }
+          }
+        }
+
+        .checkOutCalculate {
+          .checkOutTotal {
+            text-align: center;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+}
